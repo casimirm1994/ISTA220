@@ -1,0 +1,14 @@
+1. true or false
+1. equality operators (==), (!=) relational operators ( < ), ( <= ), ( > ), ( >= ) logical operators (&&), (||), Not
+they are operators that perform a caluclation whose result is either true or false
+1. Sometimes, it is not necessary to evaluate both operands when ascertaining the result of a conditional logical expression.
+1. if the left operand of the && operator evaluates to false, the result of the entire expression must be false,regardless of the value of the right operand. if the value of the left operand of the || operator evaluates to true, the result of the entire expression must be true
+1. (), =
+1. it defines the statements for if or else. (multiple lines in a statement) 
+1. without break the program continues to the next labeled statement, executing the statements until a break or the end of the statement is reached.
+1. switch- signals the compiler to perfom a switch statement
+	case- label to compare the expressions, each value is called a case
+	break- the switch terminates. no break the flow of control will fall through 
+	default- executed if no case constant-expression value is equal to the value of expression.
+1. they both return eventually the same thing. first recursion takes up more memory. recurr1 has to unwind recurr2 does not have to unwimd. (tail recursion) 
+1. a method of solving a problem where the solution depends on solutions to smaller instances of the same problem

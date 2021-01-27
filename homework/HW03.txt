@@ -1,0 +1,15 @@
+1. a named block of code that optionally accepts input then returns output.
+1. a function a named block of code that returns a value. a procedure is used to perform certain task inorder. the subprocedure is like a statement takes an action. subroutine a set of instructions to perform an operation.
+1. A return statement specifies the value that the method returns. 
+1. a single expression that returns a value whose type matches the methods return type.
+1. The visibility of variables. scope of local variables means that you cannot use them to share information between methods.
+1. a variable defined by a class
+1. If two identifiers have the same name and are declared in the same scope. you can have more then one method with the same name.
+1. place arguments inside parentheses. invokes (calls) the method. when you call a method it calls a parameter list.
+object myVar = MethodOne('a','b','c');
+1. specify the type of the method. name of the method. parameter list. the body of the method.
+1. using the OptMethod.
+1. specify the name followed by colon and the valued being used.
+1. put a return statement at the bottom of the method. yes, add multiple parameters. no, in a mathematical sense you will return one value.
+1. a tuple is a small collection of values.You indicate that a method returns a tuple by specifying a list of types as part of the method defi nition; one type for each value returned.
+1.  inside the fucntion you call the same fucntion.

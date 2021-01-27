@@ -1,0 +1,75 @@
+﻿using System;
+
+namespace ProgrammingExercise01ISSTA220
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Part 1 , circumference and area of a circle.");
+            Console.Write("Enter an integer for the radius");
+            string strradius = Console.ReadLine();
+            int intradius = int.Parse(strradius);
+            double circumference = 2 * Math.PI * intradius;
+            Console.WriteLine($"The circumference is {circumference}");
+            double area = Math.Sqrt(Math.PI * intradius);
+            Console.WriteLine($"The area is {area}");
+
+
+
+
+            Console.WriteLine("Part 2, volume of a hemisphere");
+            double volume = (2 / 3f) * Math.PI * (intradius * intradius * intradius);
+            //Console.WriteLine(intradius * intradius * intradius);
+            //Console.WriteLine(2 / 3f);
+            Console.WriteLine($"The volume is {volume}");
+
+
+
+
+            Console.WriteLine("Part 3, area of a triangle (Heron's formula)");
+            Console.WriteLine("Enter an integer for side 1");
+            string strSide1 = Console.ReadLine();
+            double A = double.Parse(strSide1);
+            Console.WriteLine("Enter an integer for side 2");
+            string strSide2 = Console.ReadLine();
+            double B = double.Parse(strSide2);
+            Console.WriteLine("Enter an integer for side 3");
+            string strSide3 = Console.ReadLine();
+            double C = double.Parse(strSide3);
+            double P = (A + B + C )/ 2;
+            area = Math.Sqrt(P * (P - A) * (P - B) * (P - C));
+            Console.WriteLine($"The area is {area}");
+
+
+
+            Console.WriteLine("Part 4, solving a quadratic equation");
+            Console.WriteLine("Enter an integer for A1");
+            string QuadA = Console.ReadLine();
+            double A1 = Double.Parse(QuadA);
+            Console.WriteLine("Enter an integer for B1");
+            string QuadB = Console.ReadLine();
+            double B1 = double.Parse(QuadB);
+            Console.WriteLine("Enter an integer C1");
+            string QuadC = Console.ReadLine();
+            double C1 = double.Parse(QuadC);
+            //double answer = A1 + B1 + C1; TESTING VARIABLES
+            //Console.WriteLine(answer); TESTING VARIABLES
+            double positive_num = -B1 + Math.Sqrt((B1 * B1) - 4 * A1 * C1);
+            double negative_num = -B1 - Math.Sqrt((B1 * B1) - 4 * A1 * C1);
+            double denominator = 2 * A1;
+            Console.WriteLine($"The positive solution is {positive_num / denominator}");
+            Console.WriteLine($"The negative solution is {negative_num / denominator}");
+
+
+
+            
+
+
+
+            
+           
+            
+        }
+    }
+}
